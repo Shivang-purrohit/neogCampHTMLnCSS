@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Payment</title>
+    <link rel="stylesheet" href="fromtry.css">
+
+
+
+
+</head>
+
+<body>
+    <h1 class="head">Payment <span class="try">Form</span></h1>
+    <h2 class="user">User Details</h2>
+    <p class="font">* Marked field is important</p>
+    <p class="font
+    ">  Name: * <input type="text" name="Name" required></p>
+    <fieldset>
+        <legend class="gen">Gender</legend>
+        <p class="font
+        ">
+            Male <input type="radio" name="gender" id="male" required>
+            Female <input type="radio" name="gender" id="female" required>
+        </p>
+    </fieldset>
+    <p class="font
+    "> Address: *  <textarea name="address" id="address"></textarea required></p>
+    <p class="font 
+    ">Email: <input type="email" name="email" id="email"required></p>
+    <p class="font
+    ">Pincode: <input type="number" name="pincode" id="email"required></p>
+    <hr>
+    <h2 class="user">Payment Details</h2>
+    <p class="font
+    ">Card Type:
+        <select name="cardtype" id="cardtype" required class="font">
+            <option value="" > <span>--Select a card-- </span></option>
+            <option value="visa">Visa</option>
+            <option value="rupay">Rupay</option>
+        </select>
+        <p class="font
+        ">
+            Card Number: * <input type="number" name="cardnum" id="cardnum" required>
+        </p>
+
+        <p class="font 
+        ">Expiry Date:  <input type="date" name="expdate" id="expdate" required></p>
+        <p class="font
+        ">CVV <input type="password" name="cvv" id="cvv" required> </p>
+       
+       <span><div class="hover"></div></span>
+        <button  type="submit" name="paynow"  class="pay" >PAY NOW</button>
+        
+
+
+
+    </p>
+
+    
+</body>
+<footer class="foot" >
+    <p class="font">THANK YOU</p>
+</footer>
+</html>

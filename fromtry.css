@@ -1,0 +1,66 @@
+* {
+    background-color: rgb(160, 157, 157);
+font-family:'Montserrat', sans-serif;;
+}
+
+.head {
+    background-color: greenyellow;
+    padding: 1rem 2rem;
+    border-bottom-left-radius: 1rem;
+    margin: auto;
+
+    font-family: 'Montserrat', sans-serif;
+}
+.try
+{
+    color: rgb(221, 29, 29);
+   
+    background-color: greenyellow;
+}
+
+.user
+{background-color: greenyellow;
+padding: 0.5rem 1rem;
+border-bottom-left-radius: 1rem;
+}
+
+.font
+{
+    color: white;
+    padding: 1rem;
+    margin: auto;
+    text-align: left;
+    margin-left: 1rem;
+    
+    
+  
+
+
+}
+
+.foot
+{
+    margin-bottom: 5rem;
+}
+
+.pay {
+    color: black;
+    padding: 1rem;
+    background-color: greenyellow;
+
+
+    font: bold;
+}
+a:hover .pay 
+{
+    background-color: rgb(78, 15, 15);
+  }
+
+
+/** a:hover {
+  background-color: yellow;
+} /**/
+
+.gen{
+    color: white;
+}
